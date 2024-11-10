@@ -103,6 +103,3 @@ There are many git commands. These commands are what make Git work. They are:
 
 22. PR checkout -- git pr checkout {#number} : This command is used in some Git hosting services (like GitHub) to check out a pull request by its number. It creates a new branch based
     on the pull request, allowing us to review or test the changes.
-
-Now, I'm going to explain one concept of git, or rather how it works under the hood. The concept is history of commits. A project repository may have been formed over a period of years. Git still is able to track the commits. How are these tracked exactly. The answer here is graphs.
-The history of commits in git forms a Directed Acyclic Graph(DAG). The commits create a chain, where each commit points to it's parent commit. This structure thus allows Git to efficiently meanage brances and merges.
