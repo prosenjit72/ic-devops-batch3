@@ -1,17 +1,29 @@
-## Basic git commands
-Followings are the basic commands of git
-## How can I clone a remote Git repository?
+<center><h1>Basic git commands</h1></center>
+
+## Followings are the basic commands of git
+How can I clone a remote Git repository?
+``` bash
 git clone <remote-repository>
+```
+`Git add`- Used to add changes in your working directory to the staging area in Git.
 
-## git add-"Used to add changes in your working directory to the staging area in Git"
+`Syntax`
+``` bash
 git add .
+```
 or 
+``` bash
 git add <file-name>
+```
+![screenshort](screenshort/git-add.png)
 
-## git commit-"Used to save your staged changes to the local repository in Git"
+`Git commit`- Used to save your staged changes to the local repository in Git.
+``` bash
 git commit -m "<Your commit message>"
+```
 
-## Create and switch to the new branch
+```
+Create and switch to the new branch
 git checkout -b <branch-name>
 
 ## Purpose of git Branch?
