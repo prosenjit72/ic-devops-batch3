@@ -42,3 +42,16 @@ git reset --hard <commit>
 
 ## Purpose of git reset!
  Remove a wrong commit, Clear the staging area, Delete all changes (both staged and unstaged) and return to a clean state.
+
+## What is Git rebase?
+Git rebase is a command used to reorganize the commit history of one or more branches.
+## Purpose of git rebase!
+Suppose I have 10 commits, and they might be related to different files. Now, I want to edit or update an existing file. For this, at the beginning, I use:
+git rebase -i HEAD~7
+## Here, 7 refers to the last 7 commits. After running the above command, the commit file will open. Then, I find the commit I want to edit, mark it as edit, and exit by typing wq. Now, the repository enters rebase mode. Then I make the necessary changes to the file and Stage the changes using git add .
+
+## Update the commit with:
+git commit --amend
+
+git rebase --continue 
+## The command git rebase --continue is used during an ongoing Git rebase process to proceed after resolving any conflicts or making necessary changes.
