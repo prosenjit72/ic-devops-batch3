@@ -72,5 +72,5 @@ Git reflog is a git command that tracks the history and reference changes of you
 git reflog or git reflog <branch-name>
 
 ## Difference between git reset & rebase!
-Rebse: For history rewriting.
+Rebase: For history rewriting.
 Reset: For undoing changes.
