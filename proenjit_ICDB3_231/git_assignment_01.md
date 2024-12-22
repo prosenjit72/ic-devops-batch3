@@ -7,3 +7,6 @@ git clone <remote-repository>
 git add .
 or 
 git add <file-name>
+
+## git commit-"Used to save your staged changes to the local repository in Git"
+git commit -m "<Your commit message>"
