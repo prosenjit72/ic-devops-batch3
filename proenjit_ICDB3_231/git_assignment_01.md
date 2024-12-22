@@ -77,3 +77,10 @@ Reset: For undoing changes.
 
 ## What is Git Forking?
 Forking is a process in GitHub where you copy a public repository and create a separate repository in your own GitHub account.
+
+## What is Git Fetches?
+Git fetches updates from a remote repository without merging them into your local branch.
+
+## Diff between git fetches & git pull!
+Git Fetches: Downloads new data (commits, branches, etc.) from the remote repository. It doesn't make any changes to your current branch.
+Git Pull: A combination of git fetch and git merge. It downloads data from the remote and automatically merges changes into your current branch.
