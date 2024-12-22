@@ -16,3 +16,9 @@ git checkout -b <branch-name>
 
 ## Purpose of git Branch?
  Git branches help the development workflow, allowing you to manage multiple development lines, safely experiment, and collaborate efficiently.
+
+## What is git alias?
+ Git alias is a shortcut or custom command that allows you to define a simpler or shorter version of a longer or more complex Git command.
+## alias cmd-
+ git config --global alias.<alias-name> '<git-command>'
+# Here --global means the alias is available across all Git repositories for your user account
