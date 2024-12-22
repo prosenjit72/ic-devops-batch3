@@ -70,3 +70,7 @@ git merge <branch_name>
 Git reflog is a git command that tracks the history and reference changes of your repository. This helps you revert to a previous state, such as if you accidentally lost or reset a commit.
 ## Syntax
 git reflog or git reflog <branch-name>
+
+## Difference between git reset & rebase!
+Rebse: For history rewriting.
+Reset: For undoing changes.
