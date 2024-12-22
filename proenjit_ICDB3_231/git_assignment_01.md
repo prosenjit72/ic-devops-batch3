@@ -74,3 +74,6 @@ git reflog or git reflog <branch-name>
 ## Difference between git reset & rebase!
 Rebase: For history rewriting.
 Reset: For undoing changes.
+
+## What is Git Forking?
+Forking is a process in GitHub where you copy a public repository and create a separate repository in your own GitHub account.
