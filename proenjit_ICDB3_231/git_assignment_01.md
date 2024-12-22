@@ -60,3 +60,8 @@ git rebase --continue
 In Git, squashing refers to the process of merging multiple commits into a single commit. It is commonly used to keep the commit history clean and organized, especially before merging into the main branch.
 ## Syntax
 git rebase -i HEAD~N
+
+## What is Git merge?
+In Git, merging is the process of combining changes from two or more branches. It is primarily used to bring together the work of multiple developers.
+## Syntax
+git merge <branch_name>
