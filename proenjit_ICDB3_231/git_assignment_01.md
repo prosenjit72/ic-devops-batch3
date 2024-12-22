@@ -92,3 +92,6 @@ git diff
 or
 ## I want to see the difference between commits a1b2c3 and d4e5f6
 git diff a1b2c3 d4e5f6
+
+## View git commit history
+git log
