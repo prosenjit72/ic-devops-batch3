@@ -13,3 +13,6 @@ git commit -m "<Your commit message>"
 
 ## Create and switch to the new branch
 git checkout -b <branch-name>
+
+## Purpose of git Branch?
+ Git branches help the development workflow, allowing you to manage multiple development lines, safely experiment, and collaborate efficiently.
