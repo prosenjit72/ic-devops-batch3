@@ -55,3 +55,8 @@ git commit --amend
 
 git rebase --continue 
 ## The command git rebase --continue is used during an ongoing Git rebase process to proceed after resolving any conflicts or making necessary changes.
+
+## What is Git Squash?
+In Git, squashing refers to the process of merging multiple commits into a single commit. It is commonly used to keep the commit history clean and organized, especially before merging into the main branch.
+## Syntax
+git rebase -i HEAD~N
