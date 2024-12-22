@@ -95,3 +95,9 @@ git diff a1b2c3 d4e5f6
 
 ## View git commit history
 git log
+
+## Rename a Branch!
+git branch -m <new-branch-name>
+
+## Delete a Branch!
+git branch -d <branch-name>
