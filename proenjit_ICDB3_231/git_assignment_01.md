@@ -84,3 +84,11 @@ Git fetches updates from a remote repository without merging them into your loca
 ## Diff between git fetches & git pull!
 Git Fetches: Downloads new data (commits, branches, etc.) from the remote repository. It doesn't make any changes to your current branch.
 Git Pull: A combination of git fetch and git merge. It downloads data from the remote and automatically merges changes into your current branch.
+
+## Git diff
+If you've made some changes to your code and want to see what you've changed before you do a git add, use git diff.It's helps you understand the current status.
+## Syntax
+git diff
+or
+## I want to see the difference between commits a1b2c3 and d4e5f6
+git diff a1b2c3 d4e5f6
