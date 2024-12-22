@@ -65,3 +65,8 @@ git rebase -i HEAD~N
 In Git, merging is the process of combining changes from two or more branches. It is primarily used to bring together the work of multiple developers.
 ## Syntax
 git merge <branch_name>
+
+## What is git reflog?
+Git reflog is a git command that tracks the history and reference changes of your repository. This helps you revert to a previous state, such as if you accidentally lost or reset a commit.
+## Syntax
+git reflog or git reflog <branch-name>
