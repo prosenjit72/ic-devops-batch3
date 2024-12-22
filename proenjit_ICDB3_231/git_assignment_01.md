@@ -10,3 +10,6 @@ git add <file-name>
 
 ## git commit-"Used to save your staged changes to the local repository in Git"
 git commit -m "<Your commit message>"
+
+## Create and switch to the new branch
+git checkout -b <branch-name>
