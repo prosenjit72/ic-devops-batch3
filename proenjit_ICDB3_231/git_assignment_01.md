@@ -101,3 +101,6 @@ git branch -m <new-branch-name>
 
 ## Delete a Branch!
 git branch -d <branch-name>
+
+## Check repository configuration
+git config --list
