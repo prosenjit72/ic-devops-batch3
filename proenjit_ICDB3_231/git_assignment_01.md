@@ -22,3 +22,23 @@ git checkout -b <branch-name>
 ## alias cmd-
  git config --global alias.<alias-name> '<git-command>'
 # Here --global means the alias is available across all Git repositories for your user account
+
+## What is git reset?
+Git reset is a command that reverts changes to your Git repository and returns the working environment to a previous state. Hard reset, Soft reset, Mixed reset, There are three types of git reset. 
+
+## Soft Reset
+## If I perform a soft reset, it will undo the last commit, and will remain in the staging area.
+git reset --soft <commit>
+
+## Mixed Reset
+If I perform a Mixed reset, it will undo the last commit, and will remain in the unstaging area.
+## Syntax
+git reset --mixed <commit>
+
+## Hard Reset
+If you perform a hard reset, it will delete the commit and also remove the files from the working directory.
+## Syntax
+git reset --hard <commit>
+
+## Purpose of git reset!
+ Remove a wrong commit, Clear the staging area, Delete all changes (both staged and unstaged) and return to a clean state.
