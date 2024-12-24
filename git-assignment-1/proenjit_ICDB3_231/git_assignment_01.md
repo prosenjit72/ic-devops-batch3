@@ -209,7 +209,7 @@ git branch -m <new-branch-name>
 ```
 How to delete a Branch!
 ``` bash
-git branch -d <branch-name>
+git branch -D <branch-name>
 ```
 How Check repository configuration?
 ``` bash
@@ -218,4 +218,3 @@ git config --list
 `screenshort`
 
 ![screenshort](screenshort/git-config.png)
-This is 
