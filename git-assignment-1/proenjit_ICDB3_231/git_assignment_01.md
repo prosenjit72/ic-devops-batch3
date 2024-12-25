@@ -218,3 +218,7 @@ git config --list
 `screenshort`
 
 ![screenshort](screenshort/git-config.png)
+
+What is Git merge conflict?
+
+Git merge conflict means git cannot automatically resolve differences between the changes in the two branches being merged.
