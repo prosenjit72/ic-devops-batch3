@@ -222,3 +222,23 @@ git config --list
 What is Git merge conflict?
 
 Git merge conflict means git cannot automatically resolve differences between the changes in the two branches being merged.
+
+What is Cherry Picking in Git?
+
+Cherry picking is the Git process of applying a specific commit from one branch to another.
+
+`Syntax`
+``` bash
+git cherry-pick <commit-hash>
+```
+
+Process of Cherry Picking !
+``` bash
+git log
+```
+`Here:` I use git log for identify the commit hash that i want to cherry pick.
+
+`Then` Checkout the branch where I want to apply the commit.
+``` bash
+git checkout <branch-name>
+```
