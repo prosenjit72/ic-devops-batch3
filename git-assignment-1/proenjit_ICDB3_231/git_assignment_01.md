@@ -242,3 +242,4 @@ git log
 ``` bash
 git checkout <branch-name>
 ```
+Then apply the cherry picking cmd.
